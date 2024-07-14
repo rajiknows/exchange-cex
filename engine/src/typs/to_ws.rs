@@ -25,7 +25,7 @@ pub struct TickerData {
     pub h: Option<String>,
     pub l: Option<String>,
     pub v: Option<String>,
-    pub v: Option<String>,
+    pub v_2: Option<String>,
     pub s: Option<String>,
     pub id: usize,
     #[serde(default = "default_ticker_event")]
